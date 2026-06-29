@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.f26b50e1.css",
-    "main.js": "/static/js/main.587c1e1a.js",
+    "main.js": "/static/js/main.18fd763e.js",
     "static/js/453.04fd27d1.chunk.js": "/static/js/453.04fd27d1.chunk.js",
+    "static/media/team_match_alum.JPG": "/static/media/team_match_alum.35a70e531f4d7876e796.JPG",
     "static/media/nationals_group.JPG": "/static/media/nationals_group.95b0ae641fffee145e50.JPG",
     "static/media/ravi_synthia_standard.JPG": "/static/media/ravi_synthia_standard.8ae91e46666782cd98bf.JPG",
     "static/media/alex_shaelyn_latin.JPG": "/static/media/alex_shaelyn_latin.67b5b70704790a0b1dc6.JPG",
     "static/media/jason_ariel_rhythm.JPG": "/static/media/jason_ariel_rhythm.284d7404b871a52faeb6.JPG",
     "static/media/caleb_amanda_smooth.JPG": "/static/media/caleb_amanda_smooth.679f3c975fd71eb69da0.JPG",
+    "static/media/aloha_ball_formation.JPG": "/static/media/aloha_ball_formation.20846426c447020089f2.JPG",
     "index.html": "/index.html",
     "main.f26b50e1.css.map": "/static/css/main.f26b50e1.css.map",
-    "main.587c1e1a.js.map": "/static/js/main.587c1e1a.js.map",
+    "main.18fd763e.js.map": "/static/js/main.18fd763e.js.map",
     "453.04fd27d1.chunk.js.map": "/static/js/453.04fd27d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f26b50e1.css",
-    "static/js/main.587c1e1a.js"
+    "static/js/main.18fd763e.js"
   ]
 }
