@@ -19,12 +19,12 @@ function Home() {
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
-                        <h1 className='corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center' }}>
+                        <a href= '/' className='h1 corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center', textDecoration: 'none' }}>
                             Ballroom Dance Club
-                        </h1>
-                        <p style={{ color: '#F3F0EC', margin: 0, alignSelf: 'center' }}>
+                        </a>
+                        <a href='/' className= 'p' style={{ color: '#F3F0EC', margin: 0, alignSelf: 'center', textDecoration: 'none' }}>
                             AT UNIVERSITY OF HAWAII
-                        </p>
+                        </a>
                     </div>
                 </Col>
             </Row>
@@ -101,9 +101,9 @@ function Home() {
                                 Interestingly, many of the top Adult Amateur ballroom dancers in the US are <b>Computer Science or Engineering majors and graduates</b> — you might even have one of them interview you for your next job!
                             </p>
                             <br />
-                            <h3 style={{ fontWeight: 'bold', textAlign: '-khtml-right' }}>
+                            <a className='h4' style={{ textAlign: '-khtml-right' }} href = '/about'>
                                 Learn more
-                            </h3>
+                            </a>
                         </div>
                     </Col>
                 </Row>
