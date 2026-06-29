@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav'
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
 
 import alex_shaelyn_latin from './images/alex_shaelyn_latin.JPG';
 import caleb_amanda_smooth from './images/caleb_amanda_smooth.JPG';
@@ -32,7 +33,7 @@ function Home() {
                 <hr style={{ color: '#F3F0EC', height: '2px', opacity: 0.8, margin: 0, marginBottom: '1vw' }}
                 />
                 <Nav style={{ justifyContent: 'space-between' }}>
-                    <Nav.Link href='/about'>
+                    <Nav.Link as={Link} to='/about'>
                         ABOUT & HOW TO JOIN
                     </Nav.Link>
                     <Nav.Link>
@@ -101,9 +102,9 @@ function Home() {
                                 Interestingly, many of the top Adult Amateur ballroom dancers in the US are <b>Computer Science or Engineering majors and graduates</b> — you might even have one of them interview you for your next job!
                             </p>
                             <br />
-                            <a className='h4' style={{ textAlign: '-khtml-right' }} href = '/about'>
+                            <Link className='h4' style={{ textAlign: '-khtml-right' }} to = '/about'>
                                 Learn more
-                            </a>
+                            </Link>
                         </div>
                     </Col>
                 </Row>
