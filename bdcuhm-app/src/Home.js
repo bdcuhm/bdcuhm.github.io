@@ -19,7 +19,7 @@ function Home() {
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
-                        <h1 className='corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center'}}>
+                        <h1 className='corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center' }}>
                             Ballroom Dance Club
                         </h1>
                         <p style={{ color: '#F3F0EC', margin: 0, alignSelf: 'center' }}>
@@ -28,15 +28,12 @@ function Home() {
                     </div>
                 </Col>
             </Row>
-            <Row fluid style={{paddingLeft: '8vw', paddingRight: '8vw', marginBottom: '2vw'}}>
-                <hr style={{ color: '#F3F0EC', height: '2px', opacity: 0.8, margin:0, marginBottom: '1vw'}}
+            <Row fluid style={{ paddingLeft: '8vw', paddingRight: '8vw', marginBottom: '2vw' }}>
+                <hr style={{ color: '#F3F0EC', height: '2px', opacity: 0.8, margin: 0, marginBottom: '1vw' }}
                 />
-                <Nav style={{justifyContent: 'space-between' }}>
-                    <Nav.Link>
-                        ABOUT
-                    </Nav.Link>
-                    <Nav.Link>
-                        HOW TO JOIN
+                <Nav style={{ justifyContent: 'space-between' }}>
+                    <Nav.Link href='/about'>
+                        ABOUT & HOW TO JOIN
                     </Nav.Link>
                     <Nav.Link>
                         FOR NEW PERFORMERS
@@ -104,7 +101,7 @@ function Home() {
                                 Interestingly, many of the top Adult Amateur ballroom dancers in the US are <b>Computer Science or Engineering majors and graduates</b> — you might even have one of them interview you for your next job!
                             </p>
                             <br />
-                            <h3 style={{fontWeight: 'bold', textAlign: '-khtml-right'}}>
+                            <h3 style={{ fontWeight: 'bold', textAlign: '-khtml-right' }}>
                                 Learn more
                             </h3>
                         </div>
