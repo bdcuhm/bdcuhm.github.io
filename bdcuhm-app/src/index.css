@@ -43,12 +43,23 @@ body {
   font-weight: bold;
 }
 
+.officer-name {
+  font-weight: bold;
+  font-size: large;
+}
+
+.officer-title {
+  font-weight: bold;
+  font-size: x-large;
+}
+
 .title-bar {
   flex-wrap: wrap;
 }
 
 .title-bar h1 {
   width: auto;
+
 }
 
 @media (max-width: 768px) {
